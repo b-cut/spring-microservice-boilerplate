@@ -7,7 +7,6 @@ import * as stores from './stores';
 import { authHydrate } from './utils/localPersist';
 import Layout from './layouts/Layout';
 import Login from './containers/login';
-import routers from './routers';
 
 import './material_kit/assets/scss/material-kit-react.scss';
 
@@ -21,18 +20,7 @@ function App() {
       <Router history={history}>
         <Switch>
           <Route exact path="/login" component={Login} />
-          <Layout>
-            <Switch>
-              {routers.map(route => (
-                <Route
-                  location={history.location}
-                  exact
-                  key={route.path}
-                  {...route}
-                />
-              ))}
-            </Switch>
-          </Layout>
+          <Layout />
         </Switch>
       </Router>
     </Provider>

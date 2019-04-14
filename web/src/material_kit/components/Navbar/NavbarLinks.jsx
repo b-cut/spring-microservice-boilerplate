@@ -18,7 +18,7 @@ import Search from "@material-ui/icons/Search";
 import CustomInput from "components/CustomInput/CustomInput.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 
-import navbarLinksStyle from "assets/jss/material-dashboard-react/components/navbarLinksStyle.jsx";
+import navbarLinksStyle from "assets/jss/material-kit-react/components/navbarLinksStyle.jsx";
 
 class NavbarLinks extends React.Component {
   state = {

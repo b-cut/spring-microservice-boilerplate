@@ -8,7 +8,7 @@ import InputAdornment from '@material-ui/core/InputAdornment';
 import Email from '@material-ui/icons/Email';
 import Lock from '@material-ui/icons/Lock';
 // core components
-import image from '../../material_kit/assets/img/bg7.jpg';
+import image from '../../material_kit/assets/img/bg.jpg';
 import Header from '../../material_kit/components/Header/Header';
 import HeaderLinks from '../../material_kit/components/Header/HeaderLinks';
 import Footer from '../../material_kit/components/Footer/Footer';
@@ -20,7 +20,6 @@ import CardBody from '../../material_kit/components/Card/CardBody';
 import CardHeader from '../../material_kit/components/Card/CardHeader';
 import CardFooter from '../../material_kit/components/Card/CardFooter';
 import CustomInput from '../../material_kit/components/CustomInput/CustomInput';
-import resource from '../../utils/resource';
 
 import loginPageStyle from '../../styles/jss/containers/loginPageStyle';
 
